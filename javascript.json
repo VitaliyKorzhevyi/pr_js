@@ -1,0 +1,16 @@
+{
+  "Arrow Function with Const": {
+    "prefix": "fnc",
+    "body": [
+      "const ${1:functionName} = (${2:params}) => {",
+      "  ${3:// code}",
+      "};"
+    ],
+    "description": "Creates an arrow function stored in a const"
+  },
+  "Console Log with Same Variable": {
+    "prefix": "logn",
+    "body": ["console.log('${1}', ${1});"],
+    "description": "Console.log with the same variable name in both parts"
+  }
+}
